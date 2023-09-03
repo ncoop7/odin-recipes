@@ -22,12 +22,37 @@ img {
 
 ul {
     list-style-type: none;
-    font-size: 20px;
+    font-size: 15px;
     padding: 0;
     margin: 0;
+    display: inline-block;
 }
 
 strong {
     color: antiquewhite;
 }
 
+.quick-links {
+    color: white;
+    padding: 1em;
+    display: inline-flex;
+}
+
+.quick-links a {
+    padding: 1em;
+    margin: 1em;
+    background-color: lightslategray;
+}
+
+.quick-links a:hover {
+    background-color: antiquewhite;
+    color: blue;
+    padding: 1em;
+}
+
+li {
+    display: inline-flex;
+    margin: 10px;
+    border: 1px;
+    border-color:black;
+}
